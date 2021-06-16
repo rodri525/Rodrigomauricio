@@ -1,0 +1,22 @@
+select * from legado_gpes WHERE cpf= '13434844996'  ;
+
+INSERT INTO edu.legado_gpes(imnt, idpes, idpais, nome, nomelog, bairro,cidade, uf, cep, datanasc, ufnasc, cnnum, cnfolha, cnlivro )
+values(9179, 44103, 76, 'JENIFER BERTO BITENCOURT','ZENON VIEIRA DE FARIAS', 'SANTA LUCIA', 'CAPIVARI DE BAIXO', 'SC', '88745-000',
+'2005-05-02', 'SC','59844','186','111');
+
+SELECT MAX(idpes)FROM legado_gpes
+
+INSERT INTO edu.legado_phst(idmnt, idpes, idmod, lei, horas, frequencia) VALUES (9179, 44103, 20, '9394/96', 0, 0);
+
+SELECT * FROM edu.legado_phst WHERE idpes=44103
+
+INSERT INTO edu.legado_phst_notas(phst_id, pdis_id, nota, obs) values (44553, '202', '-', '-');
+INSERT INTO edu.legado_phst_notas(phst_id, pdis_id, nota, obs) values (44553, '301', '-', '-');
+INSERT INTO edu.legado_phst_notas(phst_id, pdis_id, nota, obs) values (44553, '307', '-', '-');
+INSERT INTO edu.legado_phst_notas(phst_id, pdis_id, nota, obs) values (44553, '611', '-', '-');
+INSERT INTO edu.legado_phst_notas(phst_id, pdis_id, nota, obs) values (44553, '304', '-', '-');
+INSERT INTO edu.legado_phst_notas(phst_id, pdis_id, nota, obs) values (44553, '319', '-', '-');
+INSERT INTO edu.legado_phst_notas(phst_id, pdis_id, nota, obs) values (44553, '1443', '-', '-');
+INSERT INTO edu.legado_phst_notas(phst_id, pdis_id, nota, obs) values (44553, '1442', '-', '-');
+INSERT INTO edu.legado_phst_notas(phst_id, pdis_id, nota, obs) values (44553, '302', '-', '-');
+INSERT INTO edu.legado_phst_notas(phst_id, pdis_id, nota, obs) values (44553, '612', '-', '-');
